@@ -64,3 +64,12 @@
 // const realNum = parseInt(favNum);
 // console.log(typeof(realNum));
 // parseInt converts it to a real number
+
+const firstName = prompt("First Name:");
+const lastName = prompt("Last Name:");
+console.log(firstName);
+alert(lastName);
+const birthday = prompt("Date of Birth?");
+const date = new Date (birthday)
+const birthdayResponse = confirm("Is this correct: " + date);
+alert(birthday);
